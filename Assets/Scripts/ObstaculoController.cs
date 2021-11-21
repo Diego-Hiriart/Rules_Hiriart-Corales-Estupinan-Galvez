@@ -9,7 +9,7 @@ public class ObstaculoController : MonoBehaviour
     public Transform[] nodos;//Puntos del camino a seguir
     private int nodoActual = 0;//Inicia en el nodo 0
     private Transform nodoSiguiente;
-    public float velocidad = 0;
+    public float velocidad = 5;
 
     void Update()
     {
@@ -17,13 +17,13 @@ public class ObstaculoController : MonoBehaviour
         transform.Rotate(new Vector3(0, 110, 0) * Time.deltaTime * velocidad/4);//velocidad dividido para 4 sino gira demasiado rapido     
 
         //Segun en donde este el obstaculo, seguir un camino distinto
-        if (CompareTag("Rampa"))
+        if (this.nodos.Length == 0)
         {
             transform.RotateAround(camino.transform.position, new Vector3(0,1,0), 140f *  Time.deltaTime);
             /*Rotate around indica que debe rotar alrededor del primer parametro, alrededor del  eje que se indique 
              * en el segundo (eje y en este caso), con una cierta velocidad (3er parametro)*/
         }
-        else if (CompareTag("Suelo"))
+        else 
         {
             if (nodoActual < (nodos.Length - 1))//Recorrer normalmente
             {

@@ -1,0 +1,45 @@
+[
+  {
+    "MemberName": null,
+    "Operator": "AndAlso",
+    "TargetValue": null,
+    "Rules": [
+      {
+        "MemberName": "Points",
+        "Operator": "GreaterThanOrEqual",
+        "TargetValue": 5,
+        "Rules": null,
+        "Inputs": []
+      },
+      {
+        "MemberName": "Lives",
+        "Operator": "LessThanOrEqual",
+        "TargetValue": 2,
+        "Rules": null,
+        "Inputs": []
+      },
+      {
+        "MemberName": "Speed",
+        "Operator": "Equal",
+        "TargetValue": 5,
+        "Rules": null,
+        "Inputs": []
+      }
+    ],
+    "Inputs": []
+  },
+  {
+    "MemberName": "Health",
+    "Operator": "LessThanOrEqual",
+    "TargetValue": 25,
+    "Rules": null,
+    "Inputs": []
+  },
+  {
+    "MemberName": "Lives",
+    "Operator": "Equal",
+    "TargetValue": 1,
+    "Rules": null,
+    "Inputs": []
+  }
+]
