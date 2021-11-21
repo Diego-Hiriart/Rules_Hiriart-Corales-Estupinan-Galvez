@@ -10,4 +10,4 @@ Programacion V
 # Implementación de reglas
 - Regla para puntaje: cuando se obtengan 5 puntos, la velocidad de la bola aumentará.
 - Regla para salud: cuando la salud baje de 25, cambiar el color de la bola.
-- Regla para vida: cuando tenga 1 vida, salar un sonido de alarma.
+- Regla para vida: cuando tenga 1 vida, saltar un sonido de alarma.
