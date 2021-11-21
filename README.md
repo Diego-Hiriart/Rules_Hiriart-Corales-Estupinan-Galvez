@@ -8,6 +8,6 @@ Programacion V
 - [Martin Galvez](https://github.com/MGA1398)
 
 # Implementación de reglas
-- Regla para puntaje: cuando los puntos sean mayor o igual a 5, las vidas menores o iguales a 2 y la velocidad 1, la velocidad de la bola aumentará en 2 puntos.
+- Regla para puntaje: cuando los puntos sean mayor o igual a 5, las vidas menores o iguales a 2 y la velocidad 5, la velocidad de la bola aumentará en 2 puntos.
 - Regla para salud: cuando la salud baje de 25, cambiar el color de la bola.
 - Regla para vida: cuando tenga 1 vida, saltar un sonido de alarma.
